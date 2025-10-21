@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Add daily commit - 23f2001288@ds.study.iitm.ac.in
+      - name: Add daily commit - ayushdayal900@gmail.com
         run: |
           echo "Last updated: $(date -u)" > last_update.txt
           git config --global user.name "GitHub Action Bot"
